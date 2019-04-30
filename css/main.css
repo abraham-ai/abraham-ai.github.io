@@ -1,0 +1,98 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif; font-weight: 200; color: #000;
+    font-size:13px;
+    margin:0px;
+ /*   background-image: url("/images/mountain.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:     cover;
+    background-position: center center;    */
+}
+.navbar {
+    width: 66%;
+    margin-left:auto;
+    margin-right:auto;
+}
+.container {
+    width: 66%;
+    margin-left:auto;
+    margin-right:auto;
+}
+.header {
+    /*background-color:#eee;*/
+    padding:0px;
+    margin:0px;
+}
+
+ul, li {
+    font-size:1.4em;
+}
+
+nav ul, footer ul {
+    font-size:1.3em;
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+}
+nav ul li, footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+
+
+a {
+/*    background-color:#333;*/
+    padding-left:1px;
+    padding-right:1px;
+    text-decoration: none;
+	border-bottom: 0.5px dashed #888;
+    color:#000;
+	font-weight:400;
+/*    font-weight: bold;               */
+}
+a:hover {
+    background-color:#1abc9c;
+    color:#fff;
+}
+.center {
+    text-align: center;
+}
+.section {
+    font-size:30px;
+    background-color:#eee;
+    padding:10px;
+}
+h1 {
+    font-size: 3em;
+/*    font-family:'Helvetica', 'Arial', 'Sans-Serif';*/
+}
+h2 {
+    font-size: 2.2em;
+/*    font-family:'Helvetica', 'Arial', 'Sans-Serif';*/
+}
+h3 {
+    font-size: 1.6em;
+/*    font-family:'Helvetica', 'Arial', 'Sans-Serif';*/
+}
+h5 {
+    font-size:26px;
+/*    font-family: 'Source Sans Pro', sans-serif; font-weight: 200; color: #000;*/
+}
+p {
+    font-size: 1.5em;
+    line-height: 1.35em;
+    color: #333;
+}
+li {
+    font-size: 1.0em;
+    line-height:1.35em;
+}
+
+footer {
+    border-top: 1px solid #d5d5d5;
+    font-size: .8em;
+    width: 66%;
+    margin:auto;
+}
+

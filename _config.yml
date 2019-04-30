@@ -1,2 +1,6 @@
 name: Abraham
 markdown: kramdown
+collections:
+  pages:
+    output: true
+    permalink: /:path/
