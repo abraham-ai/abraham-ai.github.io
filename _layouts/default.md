@@ -15,7 +15,8 @@
 	        		<li><a href="/">home</a></li>
 		        	<li><a href="/paper/">paper</a></li>
 <!--		        	<li><a href="/blog/">blog</a></li> -->
-		        	<li><a href="https://join.slack.com/t/abraham-ai/shared_invite/enQtMzg2MDk3MDY3NjUyLTczZTQ4NWM1YjdhNmM4NmFjYTA3NmE4ZTA4ZmU0ZGY0YjM5ZGIzNDgyYWFlOTZkZTU2MWNlNGQ2YmU4ZjFlZWI">slack</a></li>
+<!--		        	<li><a href="https://join.slack.com/t/abraham-ai/shared_invite/enQtMzg2MDk3MDY3NjUyLTczZTQ4NWM1YjdhNmM4NmFjYTA3NmE4ZTA4ZmU0ZGY0YjM5ZGIzNDgyYWFlOTZkZTU2MWNlNGQ2YmU4ZjFlZWI">slack</a></li>-->
+							<li><a href="https://discord.gg/4dSYwDT">discord</a></li>
 		        	<li><a href="https://www.twitter.com/abraham_ai_">twitter</a></li>
 		        	<li><a href="https://www.instagram.com/abraham_ai_">instagram</a></li>
 	    		</ul>
