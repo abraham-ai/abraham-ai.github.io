@@ -12,14 +12,10 @@
 
 	</head>
 
-	<body>
-		
+	<body>		
 
 		<div id="navbar">
 			<nav>
-
-
-<div id="navbar_top">
 
 				<div id="navbar_left">
 					<ul>
@@ -39,41 +35,20 @@
 					</ul>
 				</div>
 
-</div>
-
-
-				<div id="navbar_bottom">
-					<ul>
-		        		<li><a href="/covenant/">Covenant</a></li>
-			        	<li><a href="/miracles/">Miracles</a></li>
-			        	<li><a href="/gospel/">Gospel</a></li>
-			        	<li><a href="/creations/">Creations</a></li>
-		    		</ul>
-		    	</div>
-
-
 			</nav>
 		</div>
 
 
-
-
-
-
-
-
 		<!-- main content -->
-		<div id="container"> 
-			{{ content }}
-		</div>
+		{{ content }}
 		
 		<!-- footer -->
 		<footer>
 			<!--
     		<ul>
         		<li><a href="https://github.com/abraham-ai">github</a></li>
-				</ul>
-				-->
+			</ul>
+			-->
 		</footer>
 
 	</body>

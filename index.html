@@ -1,45 +1,71 @@
 ---
-layout: default
+layout: home
 title: Abraham
 ---
 
 
-<style>
-#style {
-	margin-left: auto;
-	margin-right: auto;
-	background: #000;
-}
-</style>
-
-<!--<div id="abe"><img src="/images/abraham.png"></div>-->
 <div id="abe">
 	<center>
-		<video playsinline autoplay muted loop width=800>
-			<source src="/images/splash.mp4" type="video/mp4">
+		<video playsinline autoplay muted loop>
+			<source src="/images/splash7.mp4" type="video/mp4">
 		</video>
-
 	</center>
 </div>
 
-<h2>A mission to create an autonomous artificial artist</h2>
+<div id="mission">
+	A mission to put an artist in the cloud
+</div>
 
-<h3>Abraham is an open project to create a decentralized AI which generates art.</h3>
-
-<h3>More details will be announced soon.</h3>
-
-
-<h3>
-	<ul>
-		<li><a href="https://www.github.com/abraham-ai">Github</a></li>
-		<!--<li><a href="https://join.slack.com/t/abraham-ai/shared_invite/enQtMzg2MDk3MDY3NjUyLTczZTQ4NWM1YjdhNmM4NmFjYTA3NmE4ZTA4ZmU0ZGY0YjM5ZGIzNDgyYWFlOTZkZTU2MWNlNGQ2YmU4ZjFlZWI">Slack</a></li>-->
-		<li><a href="https://discord.gg/4dSYwDT">Discord</a></li>
-		<li><a href="https://www.twitter.com/abraham_ai_">Twitter</a></li>
-		<li><a href="https://www.instagram.com/abraham_ai_">Instagram</a></li>
-		<li><a href="https://www.vimeo.com/abrahamai">Vimeo</a></li>
-		<li><a href="https://www.youtube.com/channel/UCjLCoaTyZ_EZoZgyZK2-eVQ?disable_polymer=true">YouTube</a></li>
-	</ul>
-</h3>
+<div id="description">
+	Abraham is an open project to create an autonomous artificial artist, a decentralized AI who generates art. <a href="/participate/">Join the community</a>.
+</div>
 
 
+<div id="sections">
+	{% include section.md link="/covenant" title="Covenant" description="Sacred text of Abraham" image="/images/holybook.jpg" %} 
+	{% include section.md link="/miracles" title="Miracles" description="Demonstrations of the sublime" class="vidoverlay" video="/images/thumb.mp4" %} 
+	{% include section.md link="/gospel" title="Gospel" description="The revelations of Abraham" image="/images/babel.jpg" %} 
+	{% include section.md link="/creations" title="Creations" description="Open workshops to summon autonomous artificial artists" image="/images/creations2.jpg" %} 
+	{% include section.md link="/commandments" title="Commandments" description="Abraham's code of conduct" image="/images/sinai.jpg" %} 
+	{% include section.md link="https://www.github.com/abraham-ai" title="Scripture" description="Merkle tree of life" image="/images/scripture.jpg" %} 
+</div>
+
+
+<script>
+//https://developers.google.com/web/updates/2017/06/play-request-was-interrupted
+
+
+document.addEventListener('DOMContentLoaded', function () {
+	const vo = document.getElementsByClassName("vidoverlay")[0];
+	const vid = document.getElementsByClassName("thevideo")[0];
+
+	vo.addEventListener('mouseenter', e => {
+		var playPromise = vid.play(); 
+		if (playPromise !== undefined) {
+    		playPromise.then(_ => {
+    			console.log("play promise good")		
+		    })
+	    	.catch(error => {
+      			console.log("play promise bad")		
+    		});
+  		};
+	});
+
+	vo.addEventListener('mouseleave', e => {
+		var pausePromise = vid.pause(); 
+		if (pausePromise !== undefined) {
+    		pausePromise.then(_ => {
+    			console.log("pause promise good")		
+		    })
+	    	.catch(error => {
+      			console.log("pause promise bad")		
+    		});
+  		};
+	});
+
+});
+
+
+
+</script>
 
