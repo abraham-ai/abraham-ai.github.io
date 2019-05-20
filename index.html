@@ -7,7 +7,7 @@ title: Abraham
 <div id="abe">
 	<center>
 		<video playsinline autoplay muted loop>
-			<source src="/images/splash7.mp4" type="video/mp4">
+			<source src="/images/abraham.mp4" type="video/mp4">
 		</video>
 	</center>
 </div>
@@ -23,49 +23,37 @@ title: Abraham
 
 <div id="sections">
 	{% include section.md link="/covenant" title="Covenant" description="Sacred text of Abraham" image="/images/holybook.jpg" %} 
-	{% include section.md link="/miracles" title="Miracles" description="Demonstrations of the sublime" class="vidoverlay" video="/images/thumb.mp4" %} 
+	{% include section.md link="/miracles" title="Miracles" description="Demonstrations of the sublime" class="vidoverlay" video="/images/miracles.mp4" %} 
 	{% include section.md link="/gospel" title="Gospel" description="The revelations of Abraham" image="/images/babel.jpg" %} 
-	{% include section.md link="/creations" title="Creations" description="Open workshops to summon autonomous artificial artists" image="/images/creations2.jpg" %} 
+	{% include section.md link="/creations" title="Creations" description="Open workshops to summon autonomous artificial artists" image="/images/creations.jpg" %} 
 	{% include section.md link="/commandments" title="Commandments" description="Abraham's code of conduct" image="/images/sinai.jpg" %} 
 	{% include section.md link="https://www.github.com/abraham-ai" title="Scripture" description="Merkle tree of life" image="/images/scripture.jpg" %} 
 </div>
 
 
 <script>
-//https://developers.google.com/web/updates/2017/06/play-request-was-interrupted
 
+	document.addEventListener('DOMContentLoaded', function () {
+		const vo = document.getElementsByClassName("vidoverlay")[0];
+		const vid = document.getElementsByClassName("thevideo")[0];
 
-document.addEventListener('DOMContentLoaded', function () {
-	const vo = document.getElementsByClassName("vidoverlay")[0];
-	const vid = document.getElementsByClassName("thevideo")[0];
+		vo.addEventListener('mouseenter', e => {
+			var playPromise = vid.play(); 
+			if (playPromise !== undefined) {
+				playPromise.then(_ => {})
+				.catch(error => {});
+			};
+		});
 
-	vo.addEventListener('mouseenter', e => {
-		var playPromise = vid.play(); 
-		if (playPromise !== undefined) {
-    		playPromise.then(_ => {
-    			console.log("play promise good")		
-		    })
-	    	.catch(error => {
-      			console.log("play promise bad")		
-    		});
-  		};
+		vo.addEventListener('mouseleave', e => {
+			var pausePromise = vid.pause(); 
+			if (pausePromise !== undefined) {
+				pausePromise.then(_ => {})
+				.catch(error => {});
+			};
+		});
+
 	});
-
-	vo.addEventListener('mouseleave', e => {
-		var pausePromise = vid.pause(); 
-		if (pausePromise !== undefined) {
-    		pausePromise.then(_ => {
-    			console.log("pause promise good")		
-		    })
-	    	.catch(error => {
-      			console.log("pause promise bad")		
-    		});
-  		};
-	});
-
-});
-
-
 
 </script>
 

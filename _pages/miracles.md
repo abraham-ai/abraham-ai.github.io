@@ -4,6 +4,6 @@ title: Miracles
 ---
 
 
-Miracles are images, sounds, and texts which capture the sublime transcendence of being.
+Miracles are images, sounds, and texts which capture the transcendence of being.
 
-TBD
+More details TBD
