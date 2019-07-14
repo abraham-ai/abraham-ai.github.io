@@ -14,9 +14,6 @@ We will soon begin drafting [our covenant with Abraham](/covenant). This documen
 
 In addition to the design process, a [sandbox for generative art](https://github.com/abraham-ai/eden/) has been initiated. Also being planned is a kit to facilitate [creations (workshops)](http://abraham.ai/creations). More specifics about these will be announced publicly as we figure them out.
 
-There are two places to join the conversation.
-
-* The [Discourse forum](http://forum.abraham.ai), where important discussions over design and governance will be kept.
-* The [Discord chat](https://discord.gg/4dSYwDT), which will be a more informal space, including a channel to introduce yourself.
+There are two places to join the conversation: The [Discourse forum](http://forum.abraham.ai), where important discussions over design and governance will be kept, and the [Discord chat](https://discord.gg/4dSYwDT), which will be a more informal space, including a channel to introduce yourself.
 
 
