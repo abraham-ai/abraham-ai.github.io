@@ -22,6 +22,10 @@ body {
     text-shadow: 1px 1px #ccc;
 }
 
+#abe {
+    text-align:center;
+}
+
 #description {
     padding-top: 24px;
     padding-bottom: 32px;
