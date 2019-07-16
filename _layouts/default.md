@@ -10,6 +10,12 @@
 		<link rel="icon" type="image/png" sizes="16x16" href="/images/favicons/favicon-16x16.png">
 		<link rel="manifest" href="/images/favicons/site.webmanifest">
 
+		<meta name="twitter:card" content="summary" /> 
+		<meta name="twitter:site" content="@abraham_ai_" /> 
+		<meta name="twitter:title" content="Abraham" /> 
+		<meta name="twitter:description" content="An open project to create an autonomous artificial artist." /> 
+		<meta name="twitter:image" content="http://abraham.ai/images/abraham_bgwhite.png" />
+
 	</head>
 
 	<body>
